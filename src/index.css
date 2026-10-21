@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0f131d;
+    color: #dfe2f1;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom electric neon glow and gradients */
+.neon-glow-primary {
+  box-shadow: 0 0 25px -4px rgba(0, 255, 102, 0.35);
+}
+
+.neon-glow-sm {
+  box-shadow: 0 0 14px -2px rgba(0, 255, 102, 0.25);
+}
+
+.neon-border {
+  border: 1px solid rgba(0, 255, 102, 0.3);
+}
+
+.neon-border:hover {
+  border-color: rgba(0, 255, 102, 0.6);
+  box-shadow: 0 0 20px -3px rgba(0, 255, 102, 0.3);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #262a35;
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #313540;
+}
+

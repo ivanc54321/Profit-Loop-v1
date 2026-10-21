@@ -1,0 +1,6 @@
+{
+  "name": "ProfitLoop - Matched Betting & Risk-Hedging Software",
+  "description": "Algorithmic risk-hedging and matched betting platform. Unlock guaranteed mathematical yield from bookmaker promotions with real-time OddsMatcher tools and betting calculators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
